@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>io.dcloud.w2am.chinaso.com</string>
+				<string>w2am.chinaso.com</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
