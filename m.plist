@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string></string>
+					<string>https://raw.githubusercontent.com/snoweini/app/master/gsapp.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,19 +27,19 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string></string>
+					<string>https://raw.githubusercontent.com/snoweini/app/master/gsapp.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.xxxx.demo</string>
+				<string>www.chinaso.com</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>chinaso App download</string>
+				<string>中国搜索</string>
 			</dict>
 		</dict>
 	</array>
