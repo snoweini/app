@@ -33,11 +33,11 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>__W2A__m.chinaso.com</string>
+				<string>io.dcloud.w2am.chinaso.com</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
-				<string></string>
+				<string>software</string>
 				<key>title</key>
 				<string>中国搜索</string>
 			</dict>
