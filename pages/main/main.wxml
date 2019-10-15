@@ -1,0 +1,54 @@
+<!--main.wxml-->
+<view class="mainbox">  
+	    <view class="mainwrap">
+				<view class="top">
+					<view class="toptitle">
+						<text class="top_jieq_tit">{{dlist.title}}</text>
+						<text class="dot"></text>
+					</view>
+				</view>
+				<view class="shiju">
+					<view class="ul">
+						<view wx:for="{{dlist.shiju}}" wx:key="index" class="li">{{item}}</view>
+					</view>
+				</view>
+				<view class="imgs">
+					<image src="{{imgs}}" mode="widthFix"
+					style="width:200pt"></image>
+				</view>
+				<view class="main">
+					<text class="title">知·我</text>
+					<view class="text">
+					
+					{{dlist.jieshao}}
+
+				</view>
+				</view>
+				<view class="main">
+					<text class="title">习俗</text>
+					<view class="text">
+				  
+				   {{dlist.xishu}}
+				   
+				</view>
+				</view>
+				<view class="main">
+					<text class="title">美食</text>
+					<view class="text">
+					
+				   {{dlist.meishi}}
+
+				</view>
+				</view>
+				<view class="main">
+					<text class="title">宜忌</text>
+					<view class="text">
+					{{dlist.yiji}}
+					
+				</view>
+				</view>
+				<view bindtap="toindex" class="home">
+					<text>主页</text>
+				</view>
+		 </view>
+</view>

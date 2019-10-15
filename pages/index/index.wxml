@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="pageTo" data-index="{{jqtxt}}" class="today">
+   <image src="../../static/img/bg.png" mode="widthFix"></image>
+    <view class="l">
+      <text class="jqd">{{jqdate}}{{jq}}</text>
+      <text class="jqtt">二十四节气日期</text>
+    </view>
+    <view class="r">
+      <view class="jqd"><text>{{week}}</text><text class="todayico">今天</text></view> 
+      <view class="jqtt"><text>{{dd}}</text></view>
+    </view>
+  </view>
+  <view class="main">
+     <view wx:for="{{list}}"  wx:key="{{index}}" bindtap="pageTo" data-index="{{index}}" class="jqbut"> 
+       {{item.title}}
+     </view>
+  </view>
+</view>
